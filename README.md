@@ -28,14 +28,14 @@ The database consists of the following tables:
 
 ## Project Structure
 
-- /01_create_tables_and_indexes.sql
-- /02_insert_customers.sql
-- /03_insert_products.sql
-- /04_insert_orders.sql
-- /05_insert_order_items.sql
-- /06_update_table_orders_column_total_price.sql
-- /07_insert_payments.sql
-- /08_analytics_queries.sql
+- 01_create_tables_and_indexes.sql
+- 02_insert_customers.sql
+- 03_insert_products.sql
+- 04_insert_orders.sql
+- 05_insert_order_items.sql
+- 06_update_table_orders_column_total_price.sql
+- 07_insert_payments.sql
+- 08_analytics_queries.sql
 
 
 ## Key Metrics & Analysis
