@@ -23,7 +23,7 @@ WHERE status = 'COMPLETED'
 GROUP BY month
 ORDER BY month;
 
--- 3. Completed vs failed payment rate
+-- 3. Payment success rate based on completed and failed payments
 SELECT 
 	completed_payments,
 	failed_payments,
