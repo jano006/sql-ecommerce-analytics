@@ -32,8 +32,8 @@ SELECT
 	AS success_rate
 FROM (
 SELECT 
-	sum(CASE WHEN status = 'COMPLETED' THEN 1 end) AS completed_payments,
-	sum(CASE WHEN status = 'FAILED' THEN 1 end) AS failed_payments
+	count(CASE WHEN status = 'COMPLETED' THEN 1 end) AS completed_payments,
+	count(CASE WHEN status = 'FAILED' THEN 1 end) AS failed_payments
 FROM payments p) sub;
 
 -- =========================================
